@@ -1,5 +1,6 @@
 {
   "name": "ngx-filters",
+  "author": "Anthony Tomson <anthony.tomson1@gmail.com> (http://tomsondevelopment.com)",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
