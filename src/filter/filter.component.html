@@ -1,0 +1,12 @@
+<article>
+  <section *ngFor="let filter of filters">
+    <label>
+      {{ filter.label }}
+    </label>
+    <select [(ngModel)]="filter">
+      <option *ngFor="let value of filter.values" [ngValue]="value.value">
+        {{ value.label }}
+      </option>
+    </select>
+  </section>
+</article>
